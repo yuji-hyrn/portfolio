@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuji Nagaoka — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-inner">
+            <a href="#portfolio" class="nav-brand">
+                yuji-hyrn
+            </a>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="portfolio">
+        <div class="terminal-window">
+            <div class="terminal-bar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="terminal-title">yuji@portfolio: ~</span>
+            </div>
+            <div class="terminal-body">
+                <h1>Yuji Nagaoka</h1>
+                <p class="subtitle"><span class="caret">_</span>Computer Science Student &middot; Class of 2028</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <h2><span class="hash">#</span> About Me</h2>
+            <div class="about-card">
+                <img id="profile-pic" src="profile.JPG" alt="Profile picture of Yuji Nagaoka">
+                <div class="about-me-text">
+                    <p>I'm a Computer Science student graduating in 2028. Brazilian by birth, raised in Japan, I move 
+                        comfortably between cultures the same way I move between codebases. I thrive on diving into 
+                        unfamiliar environments—whether that means mastering a new tech stack, keeping the rhythm on stage 
+                        with my band, or adapting to the fast-paced floor at Starbucks. For me, every new challenge is just 
+                        another language to learn.</p>
+                    <p>Fluent in three languages: <span class="tag lang-pt">Portuguese</span> <span class="tag lang-jp">Japanese</span> <span class="tag lang-en">English</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages">
+            <h2><span class="hash">#</span> Languages</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-dot" style="background:#009B3A"></span>
+                    <h3>Portuguese</h3>
+                    <p>Native speaker.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-dot" style="background:#BC002D"></span>
+                    <h3>Japanese</h3>
+                    <div style="margin: 8px; text-align: left;">
+                        <li><p>JLPT N1</p></li>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-dot" style="background:#0A3161"></span>
+                    <h3>English</h3>
+                    <div style="margin: 8px; text-align: left;">
+                        <li><p>TOEIC 940</p></li>
+                        <li><p>Eiken pre-1</p></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2><span class="hash">#</span> Development Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-dot" style="background:#f1e05a"></span>
+                    <h3>C</h3>
+                    <p>Low-level programming and system design.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-dot" style="background:#00ffe5"></span>
+                    <h3>HTML / CSS</h3>
+                    <p>Semantic markup and layouts built from scratch.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-dot" style="background:#ff2121"></span>
+                    <h3>Java</h3>
+                    <p>Object-oriented design for coursework and projects.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-dot" style="background:#4285F4"></span>
+                    <h3>SQL</h3>
+                    <p>Relational data modeling and query optimization.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2><span class="hash">#</span> Projects</h2>
+            <div class="projects-grid">
+                <article class="repo-card">
+                    <div class="repo-card-header">
+                        <svg viewBox="0 0 16 16" width="16" height="16"><path fill="currentColor" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1H4.5a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z"></path></svg>
+                        <a href="https://github.com/rickyuji/blackjack" target="_blank">blackjack-game</a>
+                    </div>
+                    <p>A command-line Blackjack game developed in C. The project utilizes singly linked lists to efficiently manage the card deck, player/dealer hands, and the discard pile. It features accurate game logic, including dynamic Ace evaluation, and is intentionally designed with a continuous deck system across multiple rounds to simulate a realistic casino environment where card counting is possible.</p>
+                    <div class="repo-meta">
+                        <span><span class="skill-dot" style="background:#f1e05a"></span>C</span>
+                    </div>
+                </article>
+                <article class="repo-card">
+                    <div class="repo-card-header">
+                        <svg viewBox="0 0 16 16" width="16" height="16"><path fill="currentColor" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1H4.5a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z"></path></svg>
+                        <a href="https://github.com/rickyuji/vanguardbeat" target="_blank">Item Reservation Management System</a>
+                    </div>
+                    <p>A serverless web application built for live music events, allowing performing bands to manage guest lists, ticket cashbacks, and after-party attendance. Developed with Vanilla JavaScript, Tailwind CSS, and Supabase, it features real-time database operations and a customized cyberpunk UI. Successfully deployed in a real-world live music event, the system was utilized by 45 performers to manage 68 attendees, streamlining ticket operations and financial management to ensure a highly profitable and smoothly executed event.</p>
+                    <div class="repo-meta" style="display: flex; justify-content: flex-end; gap: 10px">
+                        <span><span class="skill-dot" style="background:#00ffe5"></span>HTML/CSS</span>
+                        <span><span class="skill-dot" style="background:#4285F4"></span>SQL</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2><span class="hash">#</span> Contact</h2>
+            <div class="contact-card">
+                <p>Open to internships, collaborations, and a good conversation about code.</p>
+                <div class="contact-links">
+                    <a class="contact-btn" href="mailto:rickyuji05@gmail.com">Email</a>
+                    <a class="contact-btn" href="https://github.com/rickyuji" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><span class="prompt">$</span> echo "thanks for stopping by" <span class="caret">_</span></p>
+    </footer>
+
+    <script>
+        // Tap/click ripple animation on nav links
+        document.querySelectorAll('nav a, .mini-nav a, .contact-btn').forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                const ripple = document.createElement('span');
+                ripple.className = 'ripple';
+                const rect = link.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = (e.clientX - rect.left - size / 2) + 'px';
+                ripple.style.top = (e.clientY - rect.top - size / 2) + 'px';
+                link.appendChild(ripple);
+                ripple.addEventListener('animationend', function () {
+                    ripple.remove();
+                });
+            });
+        });
+
+        // Highlight the nav link for the section currently in view
+        const sections = document.querySelectorAll('main section, header#portfolio');
+        const navLinks = document.querySelectorAll('nav ul li a');
+
+        const observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    navLinks.forEach(function (link) {
+                        link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+                    });
+                }
+            });
+        }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+
+        sections.forEach(function (section) {
+            observer.observe(section);
+        });
+    </script>
+
+</body>
+</html>
